@@ -1,0 +1,12 @@
+{
+  "name": "tstt",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mysql": "^2.17.1",
+    "net": "^1.0.2"
+  }
+}
