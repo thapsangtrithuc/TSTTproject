@@ -1,3 +1,6 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
 
 package server.giaodien;
 
@@ -14,7 +17,7 @@ import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.Frame;
 
-public class GiaoDienTuyChon<E> extends Frame implements ActionListener
+public class GiaoDienTuyChon extends Frame implements ActionListener
 {
     private static final long serialVersionUID = 1L;
     GiaoDienChinh giaoDienChinh;
