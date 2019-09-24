@@ -9,12 +9,13 @@ var connection = mysql.createPool({
 });
 
 module.exports.getInstance = function(callback) {
+    console.log("Ket noi database");
     return connection.getConnection(function(err, tempCont) {
         if(err) {
-          //  tempCont.release();
             console.log(err);
         }
         else {
+            console.log('Da ket noi database');
             callback(tempCont);
             tempCont.release();
         }
